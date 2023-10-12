@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\bradl\\POL\\C#Testing\\WebScraping\\WebScraping\\WebScraping.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\bradl\\POL\\C#Testing\\WebScraping\\WebScraping\\WebScraping.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\bradl\\POL\\C#Testing\\WebScraping\\WebScraping\\WebScraping.csproj",
+        "projectName": "WebScraping",
+        "projectPath": "C:\\Users\\bradl\\POL\\C#Testing\\WebScraping\\WebScraping\\WebScraping.csproj",
+        "packagesPath": "C:\\Users\\bradl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\bradl\\POL\\C#Testing\\WebScraping\\WebScraping\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\bradl\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Users\\bradl\\POL\\POLDomain\\nugets": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.0.0-rc1, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.14.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\bradl\\.dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
